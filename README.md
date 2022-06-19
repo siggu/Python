@@ -4,5 +4,12 @@
 
 
 > **others**
-- [게임 프로그래밍](https://inventwithpython.com/invent4thed/chapter0.html)
+<details markdown="1">
+<summary>게임 프로그래밍</summary>
+
 - [Cording with Minecraft](https://turtleappstore.com/book/)
+- [Cracking Codes with Python](https://inventwithpython.com/cracking/)
+- [Invent Your Own Computer Games with Python, 4th Edition](https://inventwithpython.com/invent4thed/chapter0.html)
+- [Making Games with Python & Pygame](https://inventwithpython.com/pygame/)
+
+</details>
