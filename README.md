@@ -11,7 +11,7 @@
   > https://colab.research.google.com/drive/1JwKhgQKR3i6TxfSDbWXOTcDCivgDoDuK#scrollTo=1k0lymU4Nj2n
 
 
-- [Making Games with Python & Pygame](https://inventwithpython.com/pygame/)
+- [Making Games with Python & Pygame](https://inventwithpython.com/pygame/) - 다운로드가 안됨...
 
 </details>
  
