@@ -11,8 +11,9 @@
   > https://colab.research.google.com/drive/1JwKhgQKR3i6TxfSDbWXOTcDCivgDoDuK#scrollTo=1k0lymU4Nj2n
 
 
-- [Making Games with Python & Pygame](https://inventwithpython.com/pygame/) - 다운로드가 안됨...
+- [Making Games with Python & Pygame](https://inventwithpython.com/pygame/)
 
+- [게임 프로그래밍 - ai-creator](https://ai-creator.tistory.com/540?category=807420)
 </details>
  
  
