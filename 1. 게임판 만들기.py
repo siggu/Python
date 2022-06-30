@@ -1,9 +1,9 @@
-import pygame # 1. pygame 선언
+import pygame
 import random
 
-pygame.init() # 2. pygame 초기화
+pygame.init()
 
-# 3. pygame에 사용되는 전역변수 선언
+
 
 WHITE = (255, 255, 255)
 size = [400, 400]
@@ -12,7 +12,6 @@ screen = pygame.display.set_mode(size)
 done = False
 clock = pygame.time.Clock()
 
-# 4. pygame 무한루프
 def runGame():
     global done
     while not done:
