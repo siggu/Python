@@ -25,3 +25,8 @@ https://namu.wiki/w/%EB%B8%8C%EB%A3%A8%ED%8A%B8%20%ED%8F%AC%EC%8A%A4#s-2
 <summary>Vacuous truth</summary>
 https://en.wikipedia.org/wiki/Vacuous_truth
 </details>
+
+<details markdown="1">
+<summary>중국인의 나머지 정리</summary>
+https://casterian.net/algo/crt.html
+</details>
