@@ -1,10 +1,10 @@
 import sys
 read = sys.stdin.readline
 dic = {}
-n = int(input())
+n = int(read().rstrip())
 
 for _ in range(n):
-    card = int(input())
+    card = int(read().rstrip())
     
     if card in dic:
         dic[card] +=1
