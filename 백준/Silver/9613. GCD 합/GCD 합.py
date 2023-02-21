@@ -1,0 +1,16 @@
+def gcd(n, m):
+    while m > 0:
+        n, m = m, n % m
+    return n
+
+n = int(input())
+
+for i in range(n):
+    arr = list(map(int, input().split()))
+    total = 0
+    
+    for j in range(1,len(arr)):
+        for k in range(j+1,len(arr)):
+            total += gcd(arr[j],arr[k])
+
+    print(total)
