@@ -30,4 +30,3 @@ https://en.wikipedia.org/wiki/Vacuous_truth
 <summary>중국인의 나머지 정리</summary>
 https://casterian.net/algo/crt.html
 </details>
- 
