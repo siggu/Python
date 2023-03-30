@@ -1,7 +1,8 @@
 > **2학년 1학기(개념)**
 - [파이썬 프로그래밍 기초](https://codingalzi.github.io/pybook/intro.html)
 - [파이썬 데이터 분석](https://codingalzi.github.io/datapy/intro.html)
-
+- [파이썬 문제해결 알고리즘](https://codingalzi.github.io/algopy/intro.html)
+- [파이썬 머신러닝](https://codingalzi.github.io/handson-ml3/intro.html)
 
 > **others**
 <details markdown="1">
