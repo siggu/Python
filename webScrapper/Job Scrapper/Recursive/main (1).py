@@ -8,6 +8,7 @@ options.add_argument("--disable-dev-shm-usage")
 
 browser = webdriver.Chrome(options=options)
 
-browser.get("https://www.indeed.com/jobs?q=python&limit=50")
+# indeed 에서 remoteok로 사이트 변경
+browser.get("https://remoteok.com/remote-python-jobs")
 
 soup = BeautifulSoup(browser.page_source, "html.parser")
