@@ -1,14 +1,18 @@
-from selenium import webdriver
+from requests import get
 from bs4 import BeautifulSoup
-from selenium.webdriver.chrome.options import Options
 
-options = Options()
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage")
+base_url = "https://remoteok.com/remote-"
+search_term = "python-jobs"
 
-browser = webdriver.Chrome(options=options)
+headers = {
+  "User-Agent":
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+} # 헤더 추가
 
-# indeed 에서 remoteok로 사이트 변경
-browser.get("https://remoteok.com/remote-python-jobs")
+response = get(f"{base_url}{search_term}", headers=headers)
 
-soup = BeautifulSoup(browser.page_source, "html.parser")
+if response.status_code != 200:
+  print("Can't request page")
+  print(response.status_code)
+else:
+  soup = BeautifulSoup(response.text, "html.parser")
