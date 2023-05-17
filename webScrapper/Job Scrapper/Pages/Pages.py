@@ -23,20 +23,13 @@ def get_page_count(keyword):
     return count
 
 
-print(get_page_count("python"))
-print(get_page_count("next js"))
-print(get_page_count("jango"))
-print(get_page_count("nest js"))
-print(get_page_count("java"))
-print(get_page_count("react"))
-
-
 def extract_indeed_jobs(keyword):
   pages = get_page_count(keyword)
+  print("Found", pages, "pages")
+  results = []
   for page in range(pages):
     base_url = "https://kr.indeed.com/jobs"
-    browser.get(f"{base_url}?q={keyword}")
-    results = []
+    browser.get(f"{base_url}?q={keyword}&start={pages*10}")
     soup = BeautifulSoup(browser.page_source, "html.parser")
     job_list = soup.find("ul", class_="jobsearch-ResultsList")
     jobs = job_list.find_all('li', recursive=False)
@@ -55,3 +48,6 @@ def extract_indeed_jobs(keyword):
           'position': title
         }
         results.append(job_data)
+
+jobs = extraft_indeed_jobs("python")
+print(jos)
