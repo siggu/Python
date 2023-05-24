@@ -19,6 +19,7 @@
  
 - [노마드 코더](https://nomadcoders.co/)
   - https://nomadcoders.co/python-for-beginners
+    - https://replit.com/@siggu?path=folder/pythonWebScrapper
     - https://nomadcoders.co/c/python-challenge/lobby
   - https://nomadcoders.co/javascript-for-beginners
 - [애플코딩](https://codingapple.com/)
