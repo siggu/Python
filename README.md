@@ -11,15 +11,9 @@
   > https://colab.research.google.com/drive/1JwKhgQKR3i6TxfSDbWXOTcDCivgDoDuK#scrollTo=1k0lymU4Nj2n
 
 
-- [Making Games with Python & Pygame](https://inventwithpython.com/pygame/)
-
-- [게임 프로그래밍 - ai-creator](https://ai-creator.tistory.com/540?category=807420)
-
 </details>
  
 - [노마드 코더](https://nomadcoders.co/)
   - https://nomadcoders.co/python-for-beginners
-    - https://replit.com/@siggu?path=folder/pythonWebScrapper
-    - https://nomadcoders.co/c/python-challenge/lobby
   - https://nomadcoders.co/javascript-for-beginners
 - [애플코딩](https://codingapple.com/)
