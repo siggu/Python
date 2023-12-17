@@ -9,4 +9,4 @@ def solution(elements):
             cnt += 1
         cnt = 0
     
-    return len(list(set(result)))
+    return len(set(result))
